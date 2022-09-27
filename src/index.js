@@ -11,6 +11,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
+    {/* store provides gives all components access to redux store, no need to pass props */}
     <Provider store={store}>
       <App />
     </Provider>
